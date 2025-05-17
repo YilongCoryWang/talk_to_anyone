@@ -33,8 +33,10 @@ README.md
    ```bash
    pip install -r requirements.txt
    ```
-3. Create a .env file with your API keys:
+3. Edit .env file with your API keys:
    ```
+   mv .env.template .env
+   # edit .env and add your api keys:
    LLM_API_KEY=your_deepseek_api_key
    TAVILY_API_KEY=your_tavily_api_key
    ```
